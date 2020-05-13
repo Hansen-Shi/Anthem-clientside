@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+
+#body{
+	/*background-image: url();*/
+}
+
+#loginpage{
+	position: absolute;
+	background: #001A33;
+	width: 50%;
+	height: 50%;
+	left: 25%;
+	top: 25%;
+	border-radius: 20px;
+	border: 5px solid gray;
+	border-right-color: black;
+	border-bottom-color: black;
+	visibility: visible;
+}
+#loginh1{
+	text-align: center;
+	color: magenta;
+	font-family: Impact, Charcoal, sans-serif;
+}
+#username{
+	position: absolute;
+	left: 10%;
+	top: 33%;
+	color: magenta;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 14pt;
+}
+#password{
+	position: absolute;
+	left: 10%;
+	top: 66%;
+	color: magenta;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 14pt;
+}
+
+
+/*end*/
