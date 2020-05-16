@@ -1,13 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
-
 body{
-	background-image: url(./assets/blue-suede-modified-primary-backgrnd-darkmode-accent-color.jpg);
+	background-image: url(src/assets/blue-suede-modified-primary-backgrnd-darkmode-accent-color.jpg);
   	background-repeat: repeat;
 }
 
 #loginpage{
 	position: absolute;
-	background-image: url(./assets/blue-suede-modified-primary-backgrnd-darkmode.jpg);
+	background-image: url(src/assets/blue-suede-modified-primary-backgrnd-darkmode.jpg);
 	width: 50%;
 	height: 50%;
 	left: 25%;
@@ -51,7 +49,7 @@ body{
 }
 #login{
 	position:absolute;
-	background-image: url(./assets/login-button.jpg);
+	background-image: url(src/assets/login-button.jpg);
 	left: 47%;
 	top: 84%;
 }
@@ -60,7 +58,5 @@ body{
 	position: absolute;
 	left:80%;
 	top: 78%;
-	width: 20%;
+    width: 20%;
 }
-
-/*end*/
