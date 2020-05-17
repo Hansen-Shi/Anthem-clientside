@@ -1,0 +1,78 @@
+body{
+    background-image: url("../../../assets/accent.jpg");
+    background-repeat: repeat;
+    visibility: visible;
+}
+#full{//I had to hack in the background, sorry
+    position: absolute;
+	background-image: url("../../../assets/accent.jpg");
+	width: 100%;
+    height: 100%;
+    left:0%;
+    top:0%;
+}
+
+#categories{
+	position: absolute;
+	background-image: url("../../../assets/blue-suede-modified-primary-backgrnd-darkmode.jpg");
+	width: 20%;
+	height: 79.7%;
+	left: 0%;
+	top: 20%;
+	border-radius: 20px;
+	border: 5px solid #916f00;
+	border-right-color: black;
+	border-bottom-color: black;
+	visibility: visible;
+}
+#playing{
+	position: absolute;
+	background-image: url("../../../assets/blue-suede-modified-primary-backgrnd-darkmode.jpg");
+	width: 20%;
+	height: 30%;
+	left: 20.3%;
+	top: 69.7%;
+	border-radius: 20px;
+	border: 5px solid #916f00;
+	border-right-color: black;
+	border-bottom-color: black;
+	visibility: visible;
+}
+#overview{
+	position: absolute;
+	background-image: url("../../../assets/blue-suede-modified-primary-backgrnd-darkmode.jpg");
+	width: 40%;
+	height: 30%;
+	left: 40.6%;
+	top: 69.7%;
+	border-radius: 20px;
+	border: 5px solid #916f00;
+	border-right-color: black;
+	border-bottom-color: black;
+	visibility: visible;
+}
+#curr_view{
+	position: absolute;
+	background-image: url("../../../assets/blue-suede-modified-primary-backgrnd-darkmode.jpg");
+	width: 78%;
+	height: 66%;
+	left: 21.7%;
+	top: .3%;
+	border-radius: 20px;
+	border: 5px solid #916f00;
+	border-right-color: black;
+	border-bottom-color: black;
+	visibility: visible;
+}
+#login{
+    position: absolute;
+    top: .2%;
+    left: .1%;
+}
+#sealy{
+	position: absolute;
+	left:80%;
+	top: 73%;
+    width: 20%;
+    height: 25%;
+}

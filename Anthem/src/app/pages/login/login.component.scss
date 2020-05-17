@@ -1,11 +1,19 @@
 body{
-	background-image: url(src/assets/blue-suede-modified-primary-backgrnd-darkmode-accent-color.jpg);
-  	background-repeat: repeat;
+    background-image: url("../../../assets/accent.jpg");
+    background-repeat: repeat;
+    visibility: visible;
 }
-
+#full{//I had to hack in the background, sorry
+    position: absolute;
+	background-image: url("../../../assets/accent.jpg");
+	width: 100%;
+    height: 100%;
+    left:0%;
+    top:0%;
+}
 #loginpage{
 	position: absolute;
-	background-image: url(src/assets/blue-suede-modified-primary-backgrnd-darkmode.jpg);
+	background-image: url("../../../assets/blue-suede-modified-primary-backgrnd-darkmode.jpg");
 	width: 50%;
 	height: 50%;
 	left: 25%;
@@ -32,12 +40,12 @@ body{
 #username_input{
 	position: absolute;
 	left: 21%;
-	top: 38.5%;
+	top: 33%;
 }
 #password{
 	position: absolute;
 	left: 10%;
-	top: 55%;
+	top: 58%;
 	color: #916f00;
 	font-family: Impact, Charcoal, sans-serif;
 	font-size: 14pt;
@@ -45,18 +53,18 @@ body{
 #password_input{
 	position: absolute;
 	left: 21%;
-	top: 60.4%;
+	top: 58%;
 }
 #login{
 	position:absolute;
-	background-image: url(src/assets/login-button.jpg);
+	background-image: url("src/assets/zoomed-in-snake-gold.jpg");
 	left: 47%;
 	top: 84%;
 }
-
 #sealy{
 	position: absolute;
 	left:80%;
-	top: 78%;
+	top: 73%;
     width: 20%;
+    height: 25%;
 }
