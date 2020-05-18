@@ -11,70 +11,110 @@ body{
     left:0%;
     top:0%;
 }
-#loginpage{
+#signuppage{
 	position: absolute;
 	background-image: url("../../../assets/blue-suede-modified-primary-backgrnd-darkmode.jpg");
-	width: 50%;
-	height: 50%;
-	left: 25%;
-	top: 25%;
+	width: 65%;
+	height: 90%;
+	left: 17.5%;
+	top: 5%;
 	border-radius: 20px;
 	border: 5px solid #916f00;
 	border-right-color: black;
 	border-bottom-color: black;
 	visibility: visible;
 }
-#loginh1{
+#signuph1{
 	text-align: center;
 	color: #916f00;
 	font-family: Impact, Charcoal, sans-serif;
 }
 #username{
 	position: absolute;
-	left: 10%;
-	top: 33%;
+	left: 12%;
+	top: 14%;
 	color: #916f00;
 	font-family: Impact, Charcoal, sans-serif;
 	font-size: 14pt;
 }
 #username_input{
 	position: absolute;
-	left: 21%;
-	top: 33%;
+	left: 12%;
+	top: 17.2%;
 }
 #password{
 	position: absolute;
-	left: 10%;
-	top: 58%;
+	left: 12%;
+	top: 35%;
 	color: #916f00;
 	font-family: Impact, Charcoal, sans-serif;
 	font-size: 14pt;
 }
 #password_input{
 	position: absolute;
-	left: 21%;
-	top: 58%;
+	left: 12%;
+	top: 38.2%;
 }
-#sign_up_text{
-	position: absolute;
-	left: 10%;
-	top: 73%;
-	color: white;
-	font-size: 8pt;
+#password_confirm{
+    position: absolute;
+	left: 12%;
+	top: 56%;
+	color: #916f00;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 14pt;
 }
-#sign_up{
-	position: absolute;
-	left: 23.4%;
-	top: 71%;
-	font-size: 8pt;
+#password_input_confirm{
+    position: absolute;
+	left: 12%;
+	top: 59.3%;
+}
 
+#first_name{
+	position: absolute;
+	left: 69%;
+	top: 14%;
+	color: #916f00;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 14pt;
 }
+#first_name_input{
+	position: absolute;
+	left: 69%;
+	top: 17.2%;
+}
+#last_name{
+	position: absolute;
+	left: 69%;
+	top: 35%;
+	color: #916f00;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 14pt;
+}
+#last_name_input{
+	position: absolute;
+	left: 69%;
+	top: 38.2%;
+}
+#email{
+    position: absolute;
+	left: 69%;
+	top: 56%;
+	color: #916f00;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 14pt;
+}
+#email_input{
+    position: absolute;
+	left: 69%;
+	top: 59.3%;
+}
+
 #login{
 	position:absolute;
 	background-image: url("src/assets/zoomed-in-snake-gold.jpg");
 	left: 47%;
-	top: 84%;
-	color: black;
+    top: 84%;
+    color: black;
 }
 #sealy{
 	position: absolute;
